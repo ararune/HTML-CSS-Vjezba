@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+:root {
+    font-family: 'Poppins', sans-serif;
+    color:aliceblue;
+    background-color: rgb(32, 27, 27);
+  }
+
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+.input-field{
+    width:200px;
+    padding:20px;
+}
+
+  input[type=password], input[type=email], input[type=text] {
+    padding: 10px;
+    padding:10px;
+    margin:10px 0;
+    border-radius:8px;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    border-color: aliceblue;
+    background-color: transparent;
+  }
+
+  input {
+    width:100%;
+  }
+  input, textarea {
+    font-family:inherit;
+    font-size: inherit;
+    color:aliceblue;
+  }
+  textarea:focus, input:focus{
+    outline: none;
+}
+*:focus {
+    outline: none;
+}
